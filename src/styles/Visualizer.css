@@ -1,0 +1,18 @@
+.array-container {
+  display: flex;
+  justify-content: center; /* Center the bars horizontally within the container */
+  align-items: flex-end;   /* Align bars at the bottom of the container */
+  height: 90vh;            /* Slightly less than full height of the viewport */
+  width: 90vw;             /* Slightly less than full width of the viewport */
+  margin-left: -10vw;       /* Shift the container 5% of the viewport width to the left */
+  margin-top: -10vh;        /* Shift the container 5% of the viewport height upwards */
+  transform: translate(-5%, -5%); 
+}
+
+.array-bar {
+  display: inline-block;
+  margin: 0 0.05rem;        /* Maintain consistent spacing between bars */
+  background-color: lightblue;
+  width: 0.6rem;           /* Fixed width in rem units */
+  transition: height 0.3s ease; /* Smooth height transition */
+}

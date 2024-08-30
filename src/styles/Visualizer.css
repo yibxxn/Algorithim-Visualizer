@@ -11,8 +11,8 @@
 
 .array-bar {
   display: inline-block;
-  margin: 0 0.05rem;        /* Maintain consistent spacing between bars */
-  background-color: lightblue;
+  margin: 0 1px;        /* Maintain consistent spacing between bars */
+  background-color: rgb(53, 198, 247);
   width: 0.6rem;           /* Fixed width in rem units */
   transition: height 0.3s ease; /* Smooth height transition */
 }
